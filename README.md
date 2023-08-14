@@ -1,3 +1,6 @@
+# TS Challenge app
+### I built this app as a code challenge in react typescript. Although not perfect, it's what I could come up with in the 2 hour +/- timespan.
+
 # Login
 <img width="959" alt="login" src="https://github.com/lcdonaldson/rct-ts-challenge/assets/11054055/286fb1f3-91e9-4551-bb3c-3fb43c865671">
 
