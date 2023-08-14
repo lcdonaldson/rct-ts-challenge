@@ -11,3 +11,215 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* LOGIN SCREEN */
+
+.splash { 
+  background-image: linear-gradient(orange,#db5c72);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.login-LO {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  padding-left: 2em;
+  padding-right: 2em;
+  min-height: 70vh;
+  min-width: 50vh; 
+  border-radius: 0.5em;
+}
+
+.login-input {
+  color: orange;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.login-btn { 
+  padding: 1em;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+/* DASHBOARD SCREEN */ 
+
+.dashboard-container { min-height: 200px; }
+
+.app-bar {
+  min-height: 50px; 
+  background-color: orangered; 
+}
+
+.greeting { 
+  text-align: right;
+  padding: 1em;
+  background-image: linear-gradient(#db5c72, orange);
+  color: white;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.dashboard-content { display: flex; }
+
+/* SIDEBAR COMPONENT */
+
+.navigation-sidebar {
+  background-color: white;
+  padding: 1.5em;
+  height: 90vh;
+  min-width: 10em;
+  width: 10vw;
+  justify-content: center;
+  position: relative; 
+}
+
+.user-links {
+  background-color: azure; 
+  max-height: 30em;
+  overflow: hidden;
+  overflow-y: scroll; 
+}
+
+.user-link {
+  list-style-type: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.8em;
+  margin: 0.5em;
+}
+
+.logout-button {
+  position: absolute;
+  bottom: 1em;
+  margin-left: 0.8em;
+  margin-bottom: 1.5em;
+}
+
+.logout-button > button {
+  background-color: orange;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 12pt;
+  min-width: 8em; 
+  height: 2.5em;
+}
+
+/* USER LIST COMPONENT  */
+
+.user-list { 
+  flex: auto;
+  padding-top: 8em;
+  padding-left: 2em;
+  padding-right: 2em;
+  min-width: 20em; 
+  background-image: linear-gradient(orange, #db5c72)
+}
+
+.user-actions {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.filter-input, .create-btn {
+  flex: 0.25;
+  height: 2.5em;
+  min-width: 10em; 
+  max-width: 20em;
+  border: none;
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 0.40;
+  min-width: 2em;
+} 
+
+/* USER CARD COMPONENT  */
+
+.x {
+  background-color: #db5c72;
+  color: white;
+  border: none;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.user-cards-wrapper {
+  /* background-color: lightyellow; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 60vh;
+  text-align: right;
+  padding: 1em; 
+}
+
+.card-preview {
+  /* border: 0.2em solid blueviolet;  */
+  background-color: white;
+  border-radius: 0.5em;
+  width: 16em;
+  height: 8em;
+  text-align: center;
+  padding-bottom: 0.5em;
+  padding-top: 1em;
+  position: relative;
+  color: orange;
+  font-weight: bold; 
+}
+
+.divider {
+  border: 1px solid orange;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.user-name { text-decoration: none;}
+
+.user-info { padding: 1em; }
+
+.title {padding-top: 0.8em;}
+
+.timestamp {
+  position: absolute;
+  bottom: 0.5em;
+  padding-left: 2.3em;
+}
+
+/* USER DETAILS  */
+
+.user-detail-wrapper {
+  background-image: linear-gradient(orange,#db5c72);
+  color: white;
+  font-weight: bold;
+  font-size: 40pt;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.centered {
+  background-color: #f4c8cf45;
+  text-align: center;
+  align-self: center;
+  min-width: 11em;
+  padding: 1em; 
+}
+
+.detail-info { padding: 0.2em; }
